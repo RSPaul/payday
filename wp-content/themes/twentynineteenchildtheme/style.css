@@ -1,0 +1,661 @@
+/* 
+Theme Name:		 twentynineteen child theme
+Theme URI:		 http://www.websitebundles.com/
+Description:	 Theme by Site <a href=\"http://childthemegenerator.com/\">http://childthemegenerator.com/</a>
+Author:			 WebsiteBundles
+Author URI:		 http://childthemegenerator.com/
+Template:		 twentynineteen
+Version:		 1.0.0
+Text Domain:	 Twenty-Nineteen-child
+-------------------------------------------------------------- */ 
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+body{
+	font-family: 'Poppins' !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*footer css start here*/
+footer.bottom_footer {
+    background: #3840b9;
+    color: #fff;
+    padding: 40px 0px;
+}
+.bottom_footer p.copyright_text {
+    margin: 0;
+    font-size: 14px;
+}
+.choose_title h2 {
+    color: #2e2e7f;
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    font-weight: 300;
+}
+.choose_title h2::before{
+	position: absolute;
+	content: "";
+	bottom: -53px;
+	width: 40px;
+	height: 2px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background: #8991f7;
+}
+.wpb_text_column.wpb_content_element.choose_title {
+    margin-bottom: 56px;
+}
+.choose_paraph p {
+    color: #8283a4;
+    font-size: 20px;
+    width: 52%;
+    margin: 0 auto;
+}
+.choose_content_features {
+    text-align: center;
+    margin-top: 40px;
+}
+.choose_content_features h3{
+	color: #8991f7;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 40px;
+}
+.choose_content_features p{
+	color: #8283a4;
+	font-size: 15px;
+}
+.choose_content_features p span {
+    display: block;
+}
+.vc_section.payday_fee_list {
+    background: #fff;
+    padding: 0px 0px;
+    position: relative;
+}
+.payday_fee_left_detail {
+    background: #6995e3;
+    padding: 60px 0;
+}
+.payday_fee_left_detail h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+.payday_fee_left_detail h3 span{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.payday_fee_left_detail ul{
+	list-style-type: none;
+	padding-left: 30px;
+}
+.payday_fee_left_detail ul li {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.payday_fee_left_detail ul li:last-child{
+	margin-bottom: 0px;
+}
+.payday_fee_left_detail .wpb_text_column.wpb_content_element{
+	margin-bottom: 0px;
+}
+
+.payday_extra_fee {
+    background: #87bcc8;
+    padding: 60px 0px 60px 80px !important;
+}
+.payday_extra_fee h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+.payday_extra_fee h3 span{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.payday_extra_fee ul{
+	list-style-type: none;
+	padding-left: 100px;
+}
+.payday_extra_fee ul li {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.payday_extra_fee ul li:last-child{
+	margin-bottom: 0px;
+}
+.payday_extra_fee .wpb_text_column.wpb_content_element{
+	margin-bottom: 0px;
+}
+.vs_main_container.wpb_column.vc_column_container.vc_col-sm-12 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+}
+.vs_main_container.wpb_column.vc_column_container.vc_col-sm-12 .wpb_text_column.wpb_content_element {
+    margin-bottom: 0px;
+}
+.vs_text {
+	background: #fff;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.1);
+	color: #8991f7;
+}
+.vs_text span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.why_choose_top.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill {
+	padding: 18% 19% 0px;
+}
+.vc_section.payroll_expert_section {
+    padding: 150px 0px 0px;
+}
+.payroll_expert_heading h2 {
+	color: #2e2e7f;
+	font-size: 32px;
+	font-weight: normal;
+	position: relative;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 55px;
+}
+.payroll_expert_heading h2::before {
+	position: absolute;
+	content: "";
+	bottom: -53px;
+	width: 40px;
+	height: 2px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background: #8991f7;
+}
+.payroll_expert_heading p {
+	color: #8283a4;
+	font-size: 20px;
+	width: 52%;
+	margin: 0 auto;
+	text-align: center;
+}
+.payroll_expert_heading p span{
+	display: block;
+}
+.wpb_text_column.wpb_content_element.payroll_expert_heading {
+    margin-bottom: 0px;
+}
+.wpb_single_image.wpb_content_element.vc_align_center.payroll_expert_image_slide {
+	margin-bottom: 0;
+	margin-top: 60px;
+	position: relative;
+	z-index: 9;
+}
+.happy_client_left h2 {
+	color: #2e2e7f;
+	font-size: 32px;
+	font-weight: normal;
+	position: relative;
+	font-weight: 300;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 55px;
+}
+.happy_client_left h2::before {
+	position: absolute;
+	content: "";
+	bottom: -53px;
+	width: 40px;
+	height: 2px;
+	left: 0;
+	background: #8991f7;
+}
+.happy_client_left p {
+	color: #8283a4;
+	font-size: 17px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+.wpb_text_column.wpb_content_element.happy_client_left {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.vc_section.happy_customer_section.vc_custom_1546513234743.vc_section-has-fill {
+    background-repeat: no-repeat !important;
+    background-position: 30px 70px !important;
+}
+.payday_extra_fee.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-right: 19% !important;
+}
+.payday_fee_left_detail.wpb_column.vc_column_container.vc_col-sm-6 {
+	padding-left: 19%;
+}
+.vc_row.wpb_row.vc_inner.vc_row-fluid.feature_choose_content_main.vc_row-o-content-middle.vc_row-flex {
+    padding-bottom: 100px;
+}
+.vc_row.wpb_row.vc_row-fluid.happy_customer_review_parts {
+    padding: 0 0 0 19%;
+}
+.vc_section.happy_customer_section.vc_custom_1546517488485.vc_section-has-fill {
+	background-position: 28% 80% !important;
+	padding: 190px 0px 140px;
+	margin-top: -55px;
+}
+.happy_client_left p span{
+	display: block;
+}
+.pricing_plan_headings h2 {
+	color: #2e2e7f;
+	font-size: 32px;
+	font-weight: normal;
+	position: relative;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 55px;
+}
+.pricing_plan_headings h2::before {
+	position: absolute;
+	content: "";
+	bottom: -53px;
+	width: 40px;
+	height: 2px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background: #8991f7;
+}
+.pricing_plan_headings p {
+	color: #8283a4;
+	font-size: 20px;
+	width: 52%;
+	margin: 0 auto;
+	text-align: center;
+}
+.vc_section.main_pricing_section {
+    padding: 140px 0px 80px !important;
+}
+.wpb_text_column.wpb_content_element.pricing_plan_headings {
+    margin-bottom: 0px;
+}
+
+
+/*header css start here*/
+
+.main_header{
+	width: 100%;
+	padding: 15px 60px 0px 20px;
+	height: 942px;
+}
+.phone_contact {
+	color: #fff;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: right;
+}
+.navbar .nav.navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 4px 0 0 44px;
+    background: none;
+    font-weight: normal;
+    transition: all 0.5s ease-in-out 0s;
+}
+.navbar .nav.navbar-nav li a:hover{
+	color: #80affb;	
+}
+.navbar .nav.navbar-nav li.current_page_item a{
+	font-weight: bold;
+}
+#navbar {
+    padding-right: 0;
+}
+.left_logo {
+    padding-top: 8px;
+}
+.banner_pay_less.text-center {
+	position: relative;
+}
+.home_bannner_white_area {
+	background: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	margin-top: 80px;
+	padding: 10px;
+	position: absolute;
+	z-index: 9;
+	box-shadow: 0px 10px 27px 8px rgba(0,0,0,0.08);
+	left: 0;
+}
+.pay_less_content h1{
+	font-family: 'Gotham' !important;
+	font-weight: bold !important;
+	font-size: 72px;
+	color: #fff;
+}
+.pay_less_content h1::before{
+	content: none;
+}
+.pay_less_content p{
+	color: #42ffff;
+	font-size: 22px;
+	margin: 0px;	
+	font-family: 'Gotham' !important;
+	font-weight: 300 !important;
+	line-height: 25px;
+}
+.pay_less_content p span{
+	display: block;
+}
+.btn.btn-primary.pricing-btn {
+	background: #fff;
+	color: #80affb;
+	font-weight: normal;
+	border-radius: 30px;
+	border: none;
+	padding: 18px 46px;
+	font-size: 15px;
+	margin-top: 38px;
+	letter-spacing: 1.8px;
+	box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.1);
+	transition: all 0.5s ease-in-out 0s;
+}
+.btn.btn-primary.pricing-btn:hover, .btn.btn-primary.pricing-btn:focus{
+	background: #80affb;
+	color: #fff;
+	outline: none;
+}
+.pay_less_content {
+	margin-top: 60px;
+}
+.hidetitle .entry-header {
+	display: none;
+}
+.nav.navbar-nav .main-menu-more {
+	display: none;
+}
+.phone_contact i {
+	margin-right: 5px;
+}
+.plan_section_role h5 {
+	color: #8991f7;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 23px;
+	letter-spacing: 1.8px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.plan_section_role ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.plan_section_role ul li {
+    color: #8283a4;
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+.pricing_plan_rate {
+	color: #8991f7;
+	font-size: 60px;
+	margin-top: 0px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.pricing_plan_rate small {
+	font-size: 16px;
+	font-weight: 300;
+	margin-left: -15px;
+}
+.pricing_plan_rate sup {
+	font-size: 18px;
+	font-weight: 300;
+	top: -30px;
+	margin-right: 6px;
+}
+.selected_pricing.plan_section_role{
+	background-color: #724de3; /* For browsers that do not support gradients */
+	background-image: -moz-linear-gradient( 90deg, rgb(43,184,237) 0%, rgb(115,76,227) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(43,184,237) 0%, rgb(115,76,227) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(43,184,237) 0%, rgb(115,76,227) 100%);
+	box-shadow: 0px 20px 40px 0px rgba(68, 84, 255, 0.3) !important;
+	margin-top: -15px;
+	padding: 15px 20px 5px 20px;
+}
+.plan_section_role {
+	padding: 0px 20px 20px 20px;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 5px 10px 0px rgba(26, 38, 74, 0.05);
+	transition: all 0.5s ease-in-out 0s;
+}
+.plan_section_role:hover{
+	box-shadow: 0px 20px 40px 0px rgba(68, 84, 255, 0.15);
+	transition: all 0.5s ease-in-out 0s;
+}
+.selected_pricing.plan_section_role h5{
+	color: #fff;
+}
+.selected_pricing.plan_section_role li{
+	color: #fff;
+}
+.selected_pricing.plan_section_role .pricing_plan_rate{
+	color: #fff;
+}
+.pricing_main_coloumns {
+	padding: 0 7%;
+}
+
+ 
+.talk_payroll_heading h2 {
+	color: #2e2e7f;
+	font-size: 32px;
+	font-weight: normal;
+	position: relative;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 32px;
+}
+.talk_payroll_heading h2::before {
+	position: absolute;
+	content: "";
+	bottom: -42px;
+	width: 40px;
+	height: 2px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background: #8991f7;
+}
+.talk_payroll_heading p {
+	color: #8283a4;
+	font-size: 20px;
+	width: 52%;
+	margin: 0 auto;
+	text-align: center;
+}
+.vc_section.main_contact_form_section {
+	padding: 60px 0px !important;
+}
+
+
+/*form css start here*/
+.Payroll_form .form-group .wpcf7-form-control {
+	border-color: #b3c8f0;
+	border-radius: 8px;
+	height: 55px;
+	box-shadow: none;
+	font-family: 'Poppins' !important;
+	padding-left: 20px;
+	width: 100%;
+	font-size: 16px;
+}
+.Payroll_form .form-group .wpcf7-form-control:focus{
+	outline: none;
+}
+.Payroll_form .form-group{
+	margin-bottom: 30px !important;
+}
+.Payroll_form .form-group textarea.wpcf7-form-control{
+	height: 230px;
+	padding-top: 15px;
+}
+.form-group.remove_margin {
+    margin-bottom: 11px !important;
+}
+.contact_info {
+  font-size: 15px;
+  color: rgb(50, 50, 168);
+}
+.inner_contact_form {
+	padding: 0 50px;
+}
+.wpcf7-form-control.wpcf7-submit {
+	background: #fff;
+	box-shadow: 0px 10px 20px 0px rgba(68, 84, 255, 0.2);
+	color: #8991f7;
+	text-transform: uppercase;
+	border: 1px solid #8991f7;
+	padding: 18px 46px;
+	font-size: 14px;
+	letter-spacing: 1.8px;
+	border-radius: 30px;
+	font-weight: normal;
+	float: right;
+	margin-top: 4px;
+	transition: all 0.5s ease-in-out 0s;
+}
+.wpcf7-form-control.wpcf7-submit:hover, .wpcf7-form-control.wpcf7-submit:focus{
+	background: #8991f7;
+	color: #fff;
+	outline: none;
+}
+span.wpcf7-not-valid-tip{
+	font-size: 13px !important;
+	margin-top: 5px;
+}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+	width: 34%;
+	margin: 0 auto;
+	font-size: 14px;
+	margin-top: 20px;
+	color: red;
+	border-color: red;
+	font-weight: 300;
+}
+
+
+/*testimonial slider css*/
+
+.right_testimonial_slider .tps_single_items_meta_info {
+	display: none;
+}
+.right_testimonial_slider .tps_single_slider_items_category {
+	display: none;
+}
+.right_testimonial_slider .tps-slider-thumb img {
+	width: 70px !important;
+	height: 70px !important;
+	border-radius: 50%;
+}
+.right_testimonial_slider .tps_single_slider_items {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px 0px rgba(26, 38, 74, 0.08);
+  padding: 50px;
+  margin: 10px;
+  border: none !important;
+}
+.right_testimonial_slider .tps_single_slider_items .tps_single_slider_items_post_images::before{
+	content: none;
+}
+.right_testimonial_slider .tps_single_slider_item_reviews {
+	background: none !important;
+	padding: 0 !important;
+	padding-top: 30px !important;
+}
+.right_testimonial_slider .tps_single_excerpt_area {
+	display: none;
+}
+.right_testimonial_slider .tps_single_slider_item_description {
+	font-size: 16px !important;
+	color: #8283a4 !important;
+	font-family: 'Poppins' !important;
+}
+.right_testimonial_slider .tps_single_slider_items .tps_single_slider_item_post_title a {
+	font-size: 18px !important;
+	color: #8991f7 !important;
+	text-decoration: none;
+}
+.right_testimonial_slider .tps_single_slider_items .tps_single_slider_item_post_title {
+	position: absolute;
+	top: -80px;
+	left: 90px;
+}
+.right_testimonial_slider #tpcarouselpro-110.owl-theme .owl-dots{
+	display: none;
+}
+.right_testimonial_slider #tpcarouselpro-110 .owl-nav {
+	margin-right: 0;
+	margin-top: 0;
+	position: absolute;
+	right: auto;
+	top: auto;
+	left: -33.3%;
+	bottom: 15%;
+}
+.right_testimonial_slider #tpcarouselpro-110 .owl-nav .owl-prev{
+	background: none !important;
+	color: #2e2e7f !important;
+	font-size: 0px;
+}
+.right_testimonial_slider #tpcarouselpro-110 .owl-nav .owl-next{
+	background: none !important;
+	color: #2e2e7f !important;	
+	font-size: 0px;
+}
+.right_testimonial_slider #tpcarouselpro-110 .owl-nav .owl-prev::before{
+	content: "\f177";
+	font-family: FontAwesome;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 20px;
+	font-weight: normal;
+}
+.right_testimonial_slider #tpcarouselpro-110 .owl-nav .owl-next::before{
+	content: "\f178";
+	font-family: FontAwesome;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+ 
+
+
