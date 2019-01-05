@@ -304,7 +304,7 @@ footer.bottom_footer {
 
 .main_header{
 	width: 100%;
-	padding: 15px 60px 0px 20px;
+	padding: 15px 20px 0px 20px;
 	height: 942px;
 }
 .phone_contact {
@@ -333,13 +333,16 @@ footer.bottom_footer {
 .left_logo {
     padding-top: 8px;
 }
+.right_menu_part {
+	padding-right: 40px;
+}
 .banner_pay_less.text-center {
 	position: relative;
 }
 .home_bannner_white_area {
 	background: #fff;
 	width: 100%;
-	height: auto;
+	height: 700px;
 	border-radius: 10px;
 	margin-top: 80px;
 	padding: 10px;
@@ -347,6 +350,10 @@ footer.bottom_footer {
 	z-index: 9;
 	box-shadow: 0px 10px 27px 8px rgba(0,0,0,0.08);
 	left: 0;
+	overflow: hidden;
+}
+.home_bannner_white_area img {
+	height: 680px;
 }
 .pay_less_content h1{
 	font-family: 'Gotham' !important;
@@ -363,7 +370,7 @@ footer.bottom_footer {
 	margin: 0px;	
 	font-family: 'Gotham' !important;
 	font-weight: 300 !important;
-	line-height: 25px;
+	line-height: 24px;
 }
 .pay_less_content p span{
 	display: block;
@@ -503,23 +510,21 @@ footer.bottom_footer {
 
 
 /*form css start here*/
-.Payroll_form .form-group .wpcf7-form-control {
+.Payroll_form .form-group .form-control {
 	border-color: #b3c8f0;
 	border-radius: 8px;
 	height: 55px;
 	box-shadow: none;
 	font-family: 'Poppins' !important;
 	padding-left: 20px;
-	width: 100%;
-	font-size: 16px;
 }
-.Payroll_form .form-group .wpcf7-form-control:focus{
+.Payroll_form .form-group .form-control:focus{
 	outline: none;
 }
 .Payroll_form .form-group{
 	margin-bottom: 30px !important;
 }
-.Payroll_form .form-group textarea.wpcf7-form-control{
+.Payroll_form .form-group textarea.form-control{
 	height: 230px;
 	padding-top: 15px;
 }
@@ -533,7 +538,7 @@ footer.bottom_footer {
 .inner_contact_form {
 	padding: 0 50px;
 }
-.wpcf7-form-control.wpcf7-submit {
+.btn.btn-primary.send_messages {
 	background: #fff;
 	box-shadow: 0px 10px 20px 0px rgba(68, 84, 255, 0.2);
 	color: #8991f7;
@@ -548,23 +553,10 @@ footer.bottom_footer {
 	margin-top: 4px;
 	transition: all 0.5s ease-in-out 0s;
 }
-.wpcf7-form-control.wpcf7-submit:hover, .wpcf7-form-control.wpcf7-submit:focus{
+.btn.btn-primary.send_messages:hover, .btn.btn-primary.send_messages:focus{
 	background: #8991f7;
 	color: #fff;
 	outline: none;
-}
-span.wpcf7-not-valid-tip{
-	font-size: 13px !important;
-	margin-top: 5px;
-}
-.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
-	width: 34%;
-	margin: 0 auto;
-	font-size: 14px;
-	margin-top: 20px;
-	color: red;
-	border-color: red;
-	font-weight: 300;
 }
 
 
@@ -657,5 +649,666 @@ span.wpcf7-not-valid-tip{
 }
 
  
+
+
+/*responsive css start here*/
+
+
+/*small laptop or Notebook css, like those we have a resolution of 1366px*/
+@media (min-width: 1281px) and (max-width: 1366px){
+
+.why_choose_top.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill {
+    padding: 22% 6.5% 0px;
+}
+.payday_fee_left_detail.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-left: 6.5%;
+}
+.payday_extra_fee.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-right: 6.5% !important;
+}
+.vc_row.wpb_row.vc_row-fluid.happy_customer_review_parts {
+	padding: 0 0 0 6.5%;
+}
+.vc_section.happy_customer_section.vc_custom_1546517488485.vc_section-has-fill {
+    background-position: 13% 60% !important;
+}
+.pricing_main_coloumns {
+	padding: 0 0%;
+}
+
+
+}
+
+
+/*very small laptop or Notebook devices, like those have a resolution of 1280px*/
+@media (min-width: 1200px) and (max-width: 1280px){
+
+.why_choose_top.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill {
+	padding: 25% 3.7% 0px;
+}
+.payday_fee_left_detail.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-left: 3.7%;
+}
+.payday_extra_fee.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-right: 3.7% !important;
+}
+.vc_row.wpb_row.vc_row-fluid.happy_customer_review_parts {
+	padding: 0 0 0 3.7%;
+}
+.vc_section.happy_customer_section.vc_custom_1546517488485.vc_section-has-fill {
+	background-position: 12% 60% !important;
+}
+.right_testimonial_slider .tps_single_slider_items{
+	padding: 40px;
+}
+.pricing_main_coloumns{
+	padding: 0px;
+}
+
+
+
+}
+
+
+
+/*In this media query I covered all the iPad Pro screen who have the larger size*/
+@media (min-width: 992px) and (max-width: 1199px) {
+.why_choose_top.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill {
+    padding: 28% 15px 0px;
+}
+.vc_row.wpb_row.vc_inner.vc_row-fluid.feature_choose_content_main.vc_row-o-content-middle.vc_row-flex {
+    padding-bottom: 30px;
+}
+.payday_fee_left_detail.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.payday_extra_fee.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-right: 15px !important;
+}
+.payday_extra_fee ul {
+    list-style-type: none;
+    padding-left: 60px;
+}
+.vc_section.payroll_expert_section {
+    padding: 60px 0px 0px;
+}
+.wpb_single_image.wpb_content_element.vc_align_center.payroll_expert_image_slide {
+    margin-bottom: 0;
+    margin-top: 40px;
+    position: relative;
+    padding: 0 15px;
+}
+.payroll_expert_heading p {
+    width: 100%;
+}
+.vc_row.wpb_row.vc_row-fluid.happy_customer_review_parts {
+    padding: 0 0 0 15px;
+}
+.happy_client_left h2{
+	font-size: 26px;
+}
+.vc_section.happy_customer_section.vc_custom_1546517488485.vc_section-has-fill {
+    background-position: 28% 80% !important;
+    padding: 100px 0px 20px;
+    margin-top: -55px;
+}
+.right_testimonial_slider .tps_single_slider_items{
+	padding: 20px;
+	margin: 0px;
+}
+.right_testimonial_slider .tps-slider-thumb img {
+    width: 30px !important;
+    height: 30px !important;
+}
+.right_testimonial_slider .tps_single_slider_items .tps_single_slider_item_post_title {
+    position: absolute;
+    top: -50px;
+    left: 40px;
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.right_testimonial_slider .tps_single_slider_items .tps_single_slider_item_post_title a {
+    font-size: 14px !important;
+    color: #8991f7 !important;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.right_testimonial_slider #tpcarouselpro-110 .owl-nav {
+    bottom: 5%;
+}
+.vc_section.main_pricing_section {
+    padding: 50px 0px 80px !important;
+}
+.inner_contact_form {
+    padding: 0;
+}
+
+
+
+}
+
+
+/*In this media query I covered all the iPad Screens and Tablet Screens*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.phone_contact{
+	font-size: 14px;
+}
+.left_logo img {
+    width: 150px;
+}
+.right_menu_part {
+    padding-right: 0;
+}
+.navbar-toggle .icon-bar{
+	background: #000;
+}
+.navbar .nav.navbar-nav li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 2px 0 0 27px;
+}
+.navbar .nav.navbar-nav li a:focus{
+	outline: none;
+}
+.main_header {
+    padding: 15px 0px 0px 0px;
+    height: 482px;
+}
+.pay_less_content h1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.pay_less_content p{
+	font-size: 18px;
+}
+.pay_less_content p span {
+    display: initial;
+}
+.pay_less_content {
+    margin-top: 0px;
+}
+.btn.btn-primary.pricing-btn {
+    padding: 14px 36px;
+    font-size: 15px;
+    margin-top: 28px;
+}
+.home_bannner_white_area {
+    width: 92%;
+    height: auto;
+    margin: 35px auto 0;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.home_bannner_white_area img {
+    height: auto;
+}
+.why_choose_top.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill {
+    padding: 33% 15px 0px;
+}
+.choose_paraph p{
+	width: 100%;
+	font-size: 14px;
+}
+.choose_title h2{
+	font-size: 24px;
+}
+.choose_content_features{
+	margin-top: 10px;
+}
+.choose_content_features h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.vc_row.wpb_row.vc_inner.vc_row-fluid.feature_choose_content_main.vc_row-o-content-middle.vc_row-flex {
+    padding-bottom: 0px;
+}
+.payday_fee_left_detail.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.payday_fee_left_detail h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.payday_fee_left_detail ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.payday_fee_left_detail {
+    padding: 30px 0;
+}
+.payday_extra_fee.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding: 30px 15px !important;
+}
+.vs_main_container.wpb_column.vc_column_container.vc_col-sm-12{
+	display: block;
+}
+.vs_text {
+    height: 70px;
+    width: 70px;
+}
+.vs_text span {
+    font-size: 18px;
+}
+.payday_extra_fee h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.payday_extra_fee ul {
+    list-style-type: none;
+    padding-left: 60px;
+}
+.payday_extra_fee ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.vc_section.payroll_expert_section {
+    padding: 30px 15px 0px !important;
+}
+.payroll_expert_heading h2{
+	font-size: 22px;
+}
+.payroll_expert_heading p {
+    font-size: 14px;
+    width: 100%;
+}
+.wpb_single_image.wpb_content_element.vc_align_center.payroll_expert_image_slide {
+    margin-top: 20px;
+}
+.vc_section.happy_customer_section.vc_custom_1546517488485.vc_section-has-fill {
+    background-position: 8% 30% !important;
+    padding: 40px 15px 30px;
+    background-size: 80% !important;
+}
+.happy_client_left h2{
+	font-size: 20px;
+}
+.vc_row.wpb_row.vc_row-fluid.happy_customer_review_parts {
+    padding: 0;
+}
+.happy_client_left p span {
+    display: inline;
+}
+.happy_client_left p{
+	font-size: 14px;
+}
+.right_testimonial_slider .tps_single_slider_items {
+    padding: 10px;
+    margin: 40px 0 0;
+}
+.right_testimonial_slider #tpcarouselpro-110 .owl-nav {
+    position: absolute;
+    right: auto;
+    top: auto;
+    left: 0;
+    bottom: -50px;
+}
+.vc_section.main_pricing_section {
+    padding: 30px 15px 30px !important;
+}
+.pricing_plan_headings h2{
+	font-size: 22px;
+}
+.pricing_plan_headings p {
+    font-size: 14px;
+    width: 100%;
+}
+.pricing_main_coloumns {
+    padding: 0;
+}
+.right_testimonial_slider .tps_single_slider_item_description{
+	font-size: 14px !important;
+}
+.plan_section_role h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.plan_section_role ul li {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.plan_section_role {
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 30px !important;
+}
+.selected_pricing.plan_section_role{
+	border: none !important;
+}
+.vc_row.wpb_row.vc_row-fluid.pricing_main_coloumns.vc_column-gap-20 .wpb_column.vc_column_container.vc_col-sm-4 {
+    padding: 0;
+}
+.vc_section.main_contact_form_section {
+    padding: 30px 15px !important;
+}
+.talk_payroll_heading h2{
+	font-size: 22px;
+}
+.talk_payroll_heading p {
+    font-size: 14px;
+    width: 100%;
+}
+.inner_contact_form {
+    padding: 20px 0;
+}
+.Payroll_form .col-md-8.col-md-offset-2 {
+    padding: 0 10px 0 0;
+}
+.Payroll_form .form-group {
+    margin-bottom: 10px !important;
+}
+.contact_info{
+	font-size: 13px;
+}
+.btn.btn-primary.send_messages{
+	float: left;
+	margin-top: 15px;
+}
+.vc_section.main_contact_form_section .wpb_text_column.wpb_content_element {
+    margin-bottom: 0;
+}
+footer.bottom_footer {
+    padding: 15px 0px;
+}
+.right_testimonial_slider .tps_single_slider_items .tps_single_slider_item_post_title a{
+	font-size: 13px !important;
+}
+.right_testimonial_slider .tps-slider-thumb img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+}
+.right_testimonial_slider .tps_single_slider_items .tps_single_slider_item_post_title {
+    position: absolute;
+    top: -53px;
+    left: 60px;
+}
+.wpb_text_column.wpb_content_element.happy_client_left {
+    margin-bottom: 0;
+    margin-top: 90px;
+    padding-right: 10px;
+}
+
+
+
+}
+
+
+/*Its covers all the mobile's Portrait and Landscape mode of the screens*/
+@media (max-width: 767px) {
+.phone_contact{
+	font-size: 14px;
+}
+.left_logo img {
+    width: 140px;
+}
+.right_menu_part {
+    padding-right: 0;
+}
+.navbar-toggle .icon-bar{
+	background: #000;
+}
+.navbar-toggle {
+    margin-top: 6px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    background-color: #fff;
+}
+.navbar-toggle:focus, .navbar-toggle:hover{
+	background: #000;
+}
+.navbar-toggle:focus .icon-bar, .navbar-toggle:hover .icon-bar{
+	background: #fff;
+}
+div#navbar {
+    width: 100%;
+    border: none !important;
+    position: absolute;
+    background: #000;
+    z-index: 99;
+    padding: 0;
+    margin-top: 2px;
+    border-radius: 5px;
+    overflow-x: hidden;
+}
+.navbar .nav.navbar-nav li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0 0 44px;
+    background: none;
+    font-weight: normal;
+    transition: all 0.5s ease-in-out 0s;
+}
+.navbar .nav.navbar-nav li a:focus{
+	outline: none;
+}
+.main_header {
+    padding: 15px 0px 0px 0px;
+    height: 482px;
+}
+.pay_less_content h1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.pay_less_content p{
+	font-size: 18px;
+}
+.pay_less_content p span {
+    display: initial;
+}
+.pay_less_content {
+    margin-top: 0px;
+}
+.btn.btn-primary.pricing-btn {
+    padding: 14px 36px;
+    font-size: 15px;
+    margin-top: 28px;
+}
+.home_bannner_white_area {
+    width: 92%;
+    height: auto;
+    margin: 35px auto 0;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.home_bannner_white_area img {
+    height: auto;
+}
+.why_choose_top.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill {
+    padding: 33% 15px 0px;
+}
+.choose_paraph p{
+	width: 100%;
+	font-size: 14px;
+}
+.choose_title h2{
+	font-size: 24px;
+}
+.choose_content_features{
+	margin-top: 10px;
+}
+.choose_content_features h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.vc_row.wpb_row.vc_inner.vc_row-fluid.feature_choose_content_main.vc_row-o-content-middle.vc_row-flex {
+    padding-bottom: 0px;
+}
+.payday_fee_left_detail.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.payday_fee_left_detail h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.payday_fee_left_detail ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.payday_fee_left_detail {
+    padding: 30px 0;
+}
+.payday_extra_fee.wpb_column.vc_column_container.vc_col-sm-6 {
+    padding: 30px 15px !important;
+}
+.vs_main_container.wpb_column.vc_column_container.vc_col-sm-12{
+	display: none;
+}
+.payday_extra_fee h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.payday_extra_fee ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+.payday_extra_fee ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.vc_section.payroll_expert_section {
+    padding: 30px 15px 0px !important;
+}
+.payroll_expert_heading h2{
+	font-size: 22px;
+}
+.payroll_expert_heading p {
+    font-size: 14px;
+    width: 100%;
+}
+.wpb_single_image.wpb_content_element.vc_align_center.payroll_expert_image_slide {
+    margin-top: 20px;
+}
+.vc_section.happy_customer_section.vc_custom_1546517488485.vc_section-has-fill {
+    background-position: 8% 30% !important;
+    padding: 40px 15px 30px;
+    background-size: 80% !important;
+}
+.happy_client_left h2{
+	font-size: 22px;
+}
+.vc_row.wpb_row.vc_row-fluid.happy_customer_review_parts {
+    padding: 0;
+}
+.happy_client_left p span {
+    display: inline;
+}
+.happy_client_left p{
+	font-size: 14px;
+}
+.right_testimonial_slider .tps_single_slider_items {
+    padding: 20px;
+    margin: 20px 0 0;
+}
+.right_testimonial_slider #tpcarouselpro-110 .owl-nav {
+    position: absolute;
+    right: auto;
+    top: auto;
+    left: 0;
+    bottom: -50px;
+}
+.vc_section.main_pricing_section {
+    padding: 30px 15px 30px !important;
+}
+.pricing_plan_headings h2{
+	font-size: 22px;
+}
+.pricing_plan_headings p {
+    font-size: 14px;
+    width: 100%;
+}
+.pricing_main_coloumns {
+    padding: 0;
+}
+.plan_section_role h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.plan_section_role ul li {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.plan_section_role {
+    padding: 20px 20px 20px 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 30px !important;
+}
+.selected_pricing.plan_section_role{
+	border: none !important;
+}
+.vc_row.wpb_row.vc_row-fluid.pricing_main_coloumns.vc_column-gap-20 .wpb_column.vc_column_container.vc_col-sm-4 {
+    padding: 0;
+}
+.vc_section.main_contact_form_section {
+    padding: 30px 15px !important;
+}
+.talk_payroll_heading h2{
+	font-size: 22px;
+}
+.talk_payroll_heading p {
+    font-size: 14px;
+    width: 100%;
+}
+.inner_contact_form {
+    padding: 20px 0;
+}
+.Payroll_form .col-md-8.col-md-offset-2 {
+    padding: 0;
+}
+.Payroll_form .form-group {
+    margin-bottom: 10px !important;
+}
+.contact_info{
+	font-size: 13px;
+}
+.btn.btn-primary.send_messages{
+	float: left;
+	margin-top: 15px;
+}
+.vc_section.main_contact_form_section .wpb_text_column.wpb_content_element {
+    margin-bottom: 0;
+}
+footer.bottom_footer {
+    padding: 15px 0px;
+}
+
+
+
+}
+
+
+
+
+/*rare css if I need a issue in mobile screen otherwise I covered all the mobile devices in (767px) media query*/
+@media (max-width: 480px) {
+.why_choose_top.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill {
+    padding: 18% 15px 0px;
+}
+
+
+
+
+}
+
+
+
+
+
+
 
 
